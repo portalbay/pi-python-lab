@@ -1,0 +1,11 @@
+from gpiozero import LED 
+
+led = LED(17)            
+ 
+led.on()    # turn on LED
+led.off()
+
+led.blink()
+led.off()
+
+led.value

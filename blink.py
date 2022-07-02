@@ -32,8 +32,8 @@ if __name__ == '__main__':    # Program entrance
     print ('Program is starting ... \n')
     setup()
     try:
-        #loop()
-        GPIO.output(ledPin, GPIO.HIGH)
+        loop()
+        #GPIO.output(ledPin, GPIO.HIGH)
     except KeyboardInterrupt:   # Press ctrl-c to end the program.
         destroy()
 
